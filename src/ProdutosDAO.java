@@ -9,7 +9,7 @@ public class ProdutosDAO {
 
     private Connection conn;
 
-    // Método auxiliar para obter a conexão
+    
     private Connection getConnection() {
         if (conn == null) {
             conn = new conectaDAO().connectDB();
