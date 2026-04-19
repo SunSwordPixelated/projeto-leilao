@@ -24,6 +24,7 @@ public class vendasVIEW extends javax.swing.JFrame {
                     listagem.get(i).getValor(),
                     listagem.get(i).getStatus()
                 });
+                
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Erro ao listar vendas: " + e.getMessage());
